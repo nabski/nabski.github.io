@@ -1,0 +1,54 @@
+body {
+    /* background: url('assets/gambar/tree3.jpg'); */
+    background-color: rgb(201, 201, 201);
+}
+/* p, .red, #penting namanya selector */
+p {
+    background-color: white;
+    font-size: 20px;
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+
+.red { /* deklarasi class pakai . */
+    color: red;
+}
+
+#penting { /* deklarasi id pakai # */
+    font-style: italic;
+}
+
+/* pseudo selector */
+p:hover {
+    background-color: coral;
+}
+
+a {
+    color: fuchsia;
+}
+
+a:visited {
+    color: green;
+}
+
+p.tebal {
+    font-weight: bolder;
+}
+
+.padded {
+    padding: 25px 50px 75px 100px;
+    border-style: inset;
+    margin: 200px;
+}
+
+ul{
+    list-style: square ;
+}
+
+.gambar{
+    position: absolute;
+    z-index: 10;
+}
+
+.gambar2{
+    position: absolute;
+}
